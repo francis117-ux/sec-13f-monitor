@@ -1,0 +1,1037 @@
+{
+  "date": "20260630",
+  "aligned_buys": [
+    {
+      "ticker": "0050",
+      "name": "元大台灣50",
+      "foreign_net": 20819319,
+      "trust_net": 0,
+      "dealer_net": 5350000,
+      "total_net": 6327855,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 20819319,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 5350000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2344",
+      "name": "華邦電",
+      "foreign_net": -21920097,
+      "trust_net": 0,
+      "dealer_net": -5152445,
+      "total_net": 2998793,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -21920097,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -5152445,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2317",
+      "name": "鴻海",
+      "foreign_net": -763643,
+      "trust_net": 0,
+      "dealer_net": -832035,
+      "total_net": 1415956,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -763643,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -832035,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2356",
+      "name": "英業達",
+      "foreign_net": 2296853,
+      "trust_net": 0,
+      "dealer_net": 4681000,
+      "total_net": 1071012,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 2296853,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 4681000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2327",
+      "name": "國巨*",
+      "foreign_net": -4471717,
+      "trust_net": 0,
+      "dealer_net": -4196803,
+      "total_net": 596958,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -4471717,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -4196803,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "1303",
+      "name": "南亞",
+      "foreign_net": 4065227,
+      "trust_net": 0,
+      "dealer_net": 3288000,
+      "total_net": 488607,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 4065227,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 3288000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "3037",
+      "name": "欣興",
+      "foreign_net": 3620829,
+      "trust_net": 0,
+      "dealer_net": 1866000,
+      "total_net": 446221,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 3620829,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 1866000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "6278",
+      "name": "台表科",
+      "foreign_net": 1464674,
+      "trust_net": 0,
+      "dealer_net": 1072183,
+      "total_net": 145631,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 1464674,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 1072183,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2376",
+      "name": "技嘉",
+      "foreign_net": 1030383,
+      "trust_net": 0,
+      "dealer_net": 1321000,
+      "total_net": 141011,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 1030383,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 1321000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2880",
+      "name": "華南金",
+      "foreign_net": 2381727,
+      "trust_net": 0,
+      "dealer_net": 2576000,
+      "total_net": 35148,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 2381727,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 2576000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "BUY"
+    }
+  ],
+  "aligned_sells": [
+    {
+      "ticker": "00991A",
+      "name": "主動復華未來50",
+      "foreign_net": 57164018,
+      "trust_net": 0,
+      "dealer_net": 6357000,
+      "total_net": -50952976,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 57164018,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 6357000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "9904",
+      "name": "寶成",
+      "foreign_net": -8044085,
+      "trust_net": 0,
+      "dealer_net": -5994982,
+      "total_net": -282741,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -8044085,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -5994982,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "1402",
+      "name": "遠東新",
+      "foreign_net": -8561754,
+      "trust_net": 0,
+      "dealer_net": -1283000,
+      "total_net": -75654,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -8561754,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -1283000,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "2885",
+      "name": "元大金",
+      "foreign_net": -8587287,
+      "trust_net": 0,
+      "dealer_net": -916768,
+      "total_net": -26682,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -8587287,
+          "direction": "SELL"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -916768,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "8422",
+      "name": "可寧衛*",
+      "foreign_net": 1969000,
+      "trust_net": 0,
+      "dealer_net": 1284000,
+      "total_net": -18928,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 1969000,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": 1284000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": true,
+      "overall_direction": "SELL"
+    }
+  ],
+  "single_institution_buys": [
+    {
+      "ticker": "00403A",
+      "name": "主動統一升級50",
+      "foreign_net": 107403050,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 75232702,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 107403050,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00631L",
+      "name": "元大台灣50正2",
+      "foreign_net": 29836531,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 45463534,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 29836531,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00981A",
+      "name": "主動統一台股增長",
+      "foreign_net": 94859771,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 39815688,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 94859771,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00992A",
+      "name": "主動群益科技創新",
+      "foreign_net": 4912120,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 17704334,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 4912120,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00712",
+      "name": "復華富時不動產",
+      "foreign_net": 4345000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 14070199,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 4345000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00918",
+      "name": "大華優利高填息30",
+      "foreign_net": 10945310,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 10184904,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 10945310,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00929",
+      "name": "復華台灣科技優息",
+      "foreign_net": 2177050,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 8734244,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 2177050,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "foreign_net": 18095300,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 8367484,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 18095300,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2409",
+      "name": "友達",
+      "foreign_net": 85499281,
+      "trust_net": 0,
+      "dealer_net": -379298,
+      "total_net": 8042269,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 85499281,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00940",
+      "name": "元大台灣價值高息",
+      "foreign_net": 6229100,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 7724197,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 6229100,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00878",
+      "name": "國泰永續高股息",
+      "foreign_net": 5039304,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 7226183,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 5039304,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00953B",
+      "name": "群益優選非投等債",
+      "foreign_net": 6766000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 6157293,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 6766000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "3481",
+      "name": "群創",
+      "foreign_net": 14820618,
+      "trust_net": 0,
+      "dealer_net": 244000,
+      "total_net": 6012390,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 14820618,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2303",
+      "name": "聯電",
+      "foreign_net": 35205538,
+      "trust_net": 0,
+      "dealer_net": -74092871,
+      "total_net": 5133480,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 35205538,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -74092871,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00983A",
+      "name": "主動中信ARK創新",
+      "foreign_net": 740000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 4541334,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 740000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "009805",
+      "name": "新光美國電力基建",
+      "foreign_net": 698000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 4499413,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 698000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "00999A",
+      "name": "主動野村臺灣高息",
+      "foreign_net": 6118000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 4157361,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 6118000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "1802",
+      "name": "台玻",
+      "foreign_net": 53989045,
+      "trust_net": 0,
+      "dealer_net": 59000,
+      "total_net": 3892592,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 53989045,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "2883",
+      "name": "凱基金",
+      "foreign_net": 21210129,
+      "trust_net": 0,
+      "dealer_net": -691830,
+      "total_net": 3723670,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 21210129,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -691830,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    },
+    {
+      "ticker": "009816",
+      "name": "凱基台灣TOP50",
+      "foreign_net": 34710944,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": 3663095,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 34710944,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "BUY"
+    }
+  ],
+  "single_institution_sells": [
+    {
+      "ticker": "00632R",
+      "name": "元大台灣50反1",
+      "foreign_net": 3625000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -39153903,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 3625000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00753L",
+      "name": "中信中國50正2",
+      "foreign_net": 739000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -11552873,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 739000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00919",
+      "name": "群益台灣精選高息",
+      "foreign_net": -708342,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -10713395,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -708342,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00407A",
+      "name": "主動凱基台灣",
+      "foreign_net": 25600000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -9650140,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 25600000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00665L",
+      "name": "富邦恒生國企正2",
+      "foreign_net": -1514000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -9309209,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -1514000,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00935",
+      "name": "野村臺灣新科技50",
+      "foreign_net": 4013520,
+      "trust_net": 0,
+      "dealer_net": -293000,
+      "total_net": -6755171,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 4013520,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00997A",
+      "name": "主動群益美國增長",
+      "foreign_net": 3790500,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -5599976,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 3790500,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00882",
+      "name": "中信中國高股息",
+      "foreign_net": -3575000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -5045278,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -3575000,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "0056",
+      "name": "元大高股息",
+      "foreign_net": 11069770,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -4981749,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 11069770,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00947",
+      "name": "台新臺灣IC設計",
+      "foreign_net": -1905695,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -4917275,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -1905695,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00990A",
+      "name": "主動元大AI新經濟",
+      "foreign_net": 15496024,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -4862672,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 15496024,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00927",
+      "name": "群益半導體收益",
+      "foreign_net": 4064100,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -3847636,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 4064100,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "2882",
+      "name": "國泰金",
+      "foreign_net": 49061944,
+      "trust_net": 0,
+      "dealer_net": -5863420,
+      "total_net": -3824199,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 49061944,
+          "direction": "BUY"
+        },
+        {
+          "institution": "自營商 (Dealer)",
+          "net_shares": -5863420,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00996A",
+      "name": "主動兆豐台灣豐收",
+      "foreign_net": 3513000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -3477745,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 3513000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "009821",
+      "name": "野村稀土關鍵資源",
+      "foreign_net": 813500,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -3404933,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 813500,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00400A",
+      "name": "主動國泰動能高息",
+      "foreign_net": 7495012,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -2986343,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 7495012,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "2834",
+      "name": "臺企銀",
+      "foreign_net": -9717881,
+      "trust_net": 0,
+      "dealer_net": -6206,
+      "total_net": -2786000,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": -9717881,
+          "direction": "SELL"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00988A",
+      "name": "主動統一全球創新",
+      "foreign_net": 13020860,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -2405341,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 13020860,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00961",
+      "name": "FT臺灣永續高息",
+      "foreign_net": 1020000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -2213429,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 1020000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    },
+    {
+      "ticker": "00664R",
+      "name": "國泰臺灣加權反1",
+      "foreign_net": 966000,
+      "trust_net": 0,
+      "dealer_net": 0,
+      "total_net": -1862146,
+      "signals": [
+        {
+          "institution": "外資 (Foreign)",
+          "net_shares": 966000,
+          "direction": "BUY"
+        }
+      ],
+      "institutions_aligned": false,
+      "overall_direction": "SELL"
+    }
+  ],
+  "total_active_stocks": 344
+}

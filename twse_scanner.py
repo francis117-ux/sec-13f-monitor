@@ -83,10 +83,10 @@ def fetch_three_institutions(date_str):
             # TWSE T86 gives share counts, not NTD values
             # We'll use share count * approximate price — but for simplicity
             # use the total net shares as proxy and flag large movers
-            foreign_net_shares = int(row[4].replace(",", "").replace("+", "").strip())
-            trust_net_shares = int(row[7].replace(",", "").replace("+", "").strip())
-            dealer_net_shares = int(row[10].replace(",", "").replace("+", "").strip())
-            total_net_shares = int(row[11].replace(",", "").replace("+", "").strip())
+            foreign_net_shares = int(str(row[4]).replace(",", "").replace("+", "").strip())
+            trust_net_shares = int(str(row[7]).replace(",", "").replace("+", "").strip())
+            dealer_net_shares = int(str(row[10]).replace(",", "").replace("+", "").strip())
+            total_net_shares = int(str(row[11]).replace(",", "").replace("+", "").strip())
 
         except (ValueError, IndexError):
             continue
