@@ -1,165 +1,250 @@
 {
-  "_comment": "US stock to Taiwan supply chain mapping. TW tickers are TWSE codes.",
+  "_comment": "US stock → Taiwan supply chain map. TW tickers are TWSE codes. Used to link US smart-money signals to Taiwan stocks for trading.",
+
   "NVDA": {
     "company": "NVIDIA",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "primary chip foundry"},
-      {"ticker": "2311", "name": "日月光 ASE", "relationship": "chip packaging & testing"},
-      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "chip packaging"},
-      {"ticker": "6770", "name": "力積電 PSMC", "relationship": "wafer foundry"},
-      {"ticker": "3037", "name": "光寶科技 Lite-On", "relationship": "server power supply"},
-      {"ticker": "2360", "name": "致茂電子 Chroma ATE", "relationship": "test equipment"},
-      {"ticker": "6533", "name": "晶心科 Andes Tech", "relationship": "RISC-V IP"},
-      {"ticker": "3105", "name": "穩懋半導體 WIN Semi", "relationship": "compound semiconductor"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "primary chip foundry (CoWoS, N4/N3)"},
+      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "advanced chip packaging & testing"},
+      {"ticker": "2311", "name": "日月光 ASE",             "relationship": "chip packaging & testing"},
+      {"ticker": "6770", "name": "力積電 PSMC",            "relationship": "wafer foundry (specialty nodes)"},
+      {"ticker": "3037", "name": "光寶科技 Lite-On",        "relationship": "server power supply"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "AI server (HGX) manufacturing"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "GPU server power systems"}
     ]
   },
+
   "AAPL": {
     "company": "Apple",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "A-series & M-series chip foundry"},
-      {"ticker": "2317", "name": "鴻海 Hon Hai/Foxconn", "relationship": "primary iPhone/Mac assembler"},
-      {"ticker": "4938", "name": "和碩 Pegatron", "relationship": "iPhone assembler"},
-      {"ticker": "3008", "name": "大立光 Largan", "relationship": "iPhone camera lenses"},
-      {"ticker": "2474", "name": "可成科技 Catcher", "relationship": "metal casing"},
-      {"ticker": "2382", "name": "廣達 Quanta", "relationship": "MacBook manufacturer"},
-      {"ticker": "2354", "name": "鴻準 Foxconn Industrial", "relationship": "metal components"},
-      {"ticker": "3481", "name": "群創 Innolux", "relationship": "display panels"},
-      {"ticker": "2408", "name": "南亞科 Nanya Tech", "relationship": "DRAM memory"},
-      {"ticker": "6239", "name": "力成科技 Powertech", "relationship": "chip testing & packaging"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "A-series & M-series chip foundry"},
+      {"ticker": "2317", "name": "鴻海 Hon Hai/Foxconn",   "relationship": "primary iPhone/Mac assembler"},
+      {"ticker": "4938", "name": "和碩 Pegatron",          "relationship": "iPhone assembler"},
+      {"ticker": "3008", "name": "大立光 Largan",          "relationship": "iPhone camera lenses"},
+      {"ticker": "2474", "name": "可成科技 Catcher",        "relationship": "metal casing"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "MacBook manufacturer"},
+      {"ticker": "3481", "name": "群創 Innolux",           "relationship": "display panels"},
+      {"ticker": "6239", "name": "力成科技 Powertech",      "relationship": "chip testing & packaging"}
     ]
   },
+
   "AMD": {
     "company": "AMD",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "primary chip foundry"},
-      {"ticker": "2311", "name": "日月光 ASE", "relationship": "chip packaging"},
-      {"ticker": "2303", "name": "聯電 UMC", "relationship": "mature node foundry"},
-      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "advanced packaging"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "primary foundry (CPU/GPU)"},
+      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "advanced packaging"},
+      {"ticker": "2303", "name": "聯電 UMC",              "relationship": "mature node foundry"}
     ]
   },
+
   "AVGO": {
     "company": "Broadcom",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "primary chip foundry"},
-      {"ticker": "2311", "name": "日月光 ASE", "relationship": "chip packaging"},
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "network equipment assembly"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "primary foundry"},
+      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "chip packaging"},
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "network equipment assembly"}
     ]
   },
+
   "TSM": {
-    "company": "TSMC",
+    "company": "TSMC (US ADR)",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "direct — this IS TSMC"},
-      {"ticker": "2325", "name": "矽品精密 SPIL", "relationship": "packaging partner"},
-      {"ticker": "5347", "name": "世界先進 VIS", "relationship": "TSMC subsidiary foundry"}
+      {"ticker": "2330", "name": "台積電 TSMC",   "relationship": "this IS TSMC — direct"},
+      {"ticker": "5347", "name": "世界先進 VIS",  "relationship": "TSMC subsidiary foundry"},
+      {"ticker": "2325", "name": "矽品精密 SPIL", "relationship": "packaging partner"}
     ]
   },
+
   "MSFT": {
     "company": "Microsoft",
     "tw_suppliers": [
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "Xbox & Surface assembly"},
-      {"ticker": "2382", "name": "廣達 Quanta", "relationship": "Azure server manufacturer"},
-      {"ticker": "2308", "name": "台達電 Delta Electronics", "relationship": "data center power supply"},
-      {"ticker": "3231", "name": "緯創 Wistron", "relationship": "Surface device assembly"}
+      {"ticker": "2317", "name": "鴻海 Foxconn",           "relationship": "Xbox & Surface assembly"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "Azure server manufacturer"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "data center power supply"},
+      {"ticker": "3231", "name": "緯創 Wistron",           "relationship": "Surface device assembly"},
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "Azure AI chip foundry"}
     ]
   },
+
   "AMZN": {
     "company": "Amazon",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "Graviton chip foundry"},
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "Kindle & Echo assembly"},
-      {"ticker": "2308", "name": "台達電 Delta Electronics", "relationship": "AWS data center power"},
-      {"ticker": "2382", "name": "廣達 Quanta", "relationship": "AWS server manufacturer"},
-      {"ticker": "3704", "name": "合勤控股 Zyxel", "relationship": "networking equipment"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "Graviton/Trainium chip foundry"},
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "Echo/Kindle assembly"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "AWS data center power"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "AWS server manufacturer"}
     ]
   },
+
   "GOOGL": {
     "company": "Alphabet/Google",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "TPU chip foundry"},
-      {"ticker": "2382", "name": "廣達 Quanta", "relationship": "Google server manufacturer"},
-      {"ticker": "2308", "name": "台達電 Delta Electronics", "relationship": "data center power supply"},
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "Pixel phone assembly"},
-      {"ticker": "3008", "name": "大立光 Largan", "relationship": "Pixel camera lenses"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "TPU/Tensor chip foundry"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "Google server manufacturer"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "data center power supply"},
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "Pixel phone assembly"},
+      {"ticker": "3008", "name": "大立光 Largan",          "relationship": "Pixel camera lenses"}
     ]
   },
+
   "META": {
     "company": "Meta Platforms",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "MTIA AI chip foundry"},
-      {"ticker": "2382", "name": "廣達 Quanta", "relationship": "data center servers"},
-      {"ticker": "2308", "name": "台達電 Delta Electronics", "relationship": "data center power"},
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "Quest VR assembly"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "MTIA AI chip foundry"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "data center servers"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "data center power"},
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "Quest VR headset assembly"}
     ]
   },
+
   "TSLA": {
     "company": "Tesla",
     "tw_suppliers": [
-      {"ticker": "2308", "name": "台達電 Delta Electronics", "relationship": "EV chargers & inverters"},
-      {"ticker": "2049", "name": "上銀科技 Hiwin", "relationship": "precision linear components"},
-      {"ticker": "2327", "name": "國巨 Yageo", "relationship": "passive components"},
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "FSD chip foundry"},
-      {"ticker": "1590", "name": "亞德客 Airtac", "relationship": "factory automation"},
-      {"ticker": "3596", "name": "智易科 Arcadyan", "relationship": "connectivity modules"}
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "EV chargers & inverters"},
+      {"ticker": "2049", "name": "上銀科技 Hiwin",          "relationship": "precision linear motion components"},
+      {"ticker": "2327", "name": "國巨 Yageo",             "relationship": "passive components (MLCC)"},
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "FSD autonomous driving chip foundry"},
+      {"ticker": "1590", "name": "亞德客 Airtac",          "relationship": "factory automation components"}
     ]
   },
+
   "QCOM": {
     "company": "Qualcomm",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "Snapdragon chip foundry"},
-      {"ticker": "2311", "name": "日月光 ASE", "relationship": "chip packaging"},
-      {"ticker": "2454", "name": "聯發科 MediaTek", "relationship": "competitor/partner in mobile SoC"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "Snapdragon chip foundry"},
+      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "chip packaging"},
+      {"ticker": "2454", "name": "聯發科 MediaTek",        "relationship": "key competitor — both benefit from same handset cycle"}
     ]
   },
+
   "INTC": {
     "company": "Intel",
     "tw_suppliers": [
-      {"ticker": "2303", "name": "聯電 UMC", "relationship": "foundry partner for mature nodes"},
-      {"ticker": "6488", "name": "環球晶圓 GlobalWafers", "relationship": "silicon wafer supplier"},
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "outsourced chip manufacturing"}
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "outsourced fab (N3 client chips)"},
+      {"ticker": "2303", "name": "聯電 UMC",              "relationship": "mature node foundry partner"},
+      {"ticker": "6488", "name": "環球晶圓 GlobalWafers",  "relationship": "silicon wafer supplier"}
     ]
   },
+
   "MU": {
     "company": "Micron Technology",
     "tw_suppliers": [
-      {"ticker": "2408", "name": "南亞科 Nanya Tech", "relationship": "DRAM competitor/partner"},
-      {"ticker": "3260", "name": "威剛科技 ADATA", "relationship": "memory module maker"},
-      {"ticker": "2401", "name": "凌陽科 Sunplus", "relationship": "semiconductor design"}
+      {"ticker": "2408", "name": "南亞科 Nanya Tech",  "relationship": "DRAM competitor in same cycle"},
+      {"ticker": "3260", "name": "威剛科技 ADATA",     "relationship": "DRAM/flash module maker"},
+      {"ticker": "6239", "name": "力成科技 Powertech", "relationship": "memory chip packaging"}
     ]
   },
+
   "AMAT": {
     "company": "Applied Materials",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "primary equipment customer"},
-      {"ticker": "3059", "name": "華晶科 Altek", "relationship": "semiconductor components"},
-      {"ticker": "2360", "name": "致茂電子 Chroma ATE", "relationship": "test & measurement peer"}
+      {"ticker": "2330", "name": "台積電 TSMC",    "relationship": "largest equipment customer"},
+      {"ticker": "2303", "name": "聯電 UMC",      "relationship": "equipment customer"},
+      {"ticker": "2360", "name": "致茂電子 Chroma","relationship": "test & measurement peer"}
     ]
   },
+
   "LRCX": {
     "company": "Lam Research",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "primary equipment customer"},
-      {"ticker": "2303", "name": "聯電 UMC", "relationship": "equipment customer"}
+      {"ticker": "2330", "name": "台積電 TSMC","relationship": "primary equipment customer"},
+      {"ticker": "2303", "name": "聯電 UMC",   "relationship": "equipment customer"}
     ]
   },
+
+  "KLAC": {
+    "company": "KLA Corporation",
+    "tw_suppliers": [
+      {"ticker": "2330", "name": "台積電 TSMC","relationship": "largest process-control customer"},
+      {"ticker": "2303", "name": "聯電 UMC",   "relationship": "equipment customer"}
+    ]
+  },
+
   "ASML": {
     "company": "ASML",
     "tw_suppliers": [
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "largest EUV machine customer"},
-      {"ticker": "2303", "name": "聯電 UMC", "relationship": "DUV machine customer"}
+      {"ticker": "2330", "name": "台積電 TSMC","relationship": "largest EUV/DUV machine customer"},
+      {"ticker": "2303", "name": "聯電 UMC",   "relationship": "DUV machine customer"}
     ]
   },
+
+  "ARM": {
+    "company": "Arm Holdings",
+    "tw_suppliers": [
+      {"ticker": "2454", "name": "聯發科 MediaTek", "relationship": "largest ARM licensee by volume"},
+      {"ticker": "2330", "name": "台積電 TSMC",     "relationship": "ARM chip foundry (through customers)"},
+      {"ticker": "3711", "name": "日月光投控 ASE",  "relationship": "packaging for ARM-based chips"}
+    ]
+  },
+
+  "MRVL": {
+    "company": "Marvell Technology",
+    "tw_suppliers": [
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "primary foundry"},
+      {"ticker": "3711", "name": "日月光投控 ASE Holdings", "relationship": "advanced packaging"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "data center server customer"}
+    ]
+  },
+
+  "SMCI": {
+    "company": "Super Micro Computer",
+    "tw_suppliers": [
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "server competitor/ecosystem partner"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "server power supplies"},
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "chip foundry (through NVIDIA/AMD)"},
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "server component supply chain"}
+    ]
+  },
+
+  "ON": {
+    "company": "ON Semiconductor",
+    "tw_suppliers": [
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "foundry for advanced nodes"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "shares EV power market"},
+      {"ticker": "2049", "name": "上銀科技 Hiwin",          "relationship": "EV/industrial automation overlap"}
+    ]
+  },
+
+  "TXN": {
+    "company": "Texas Instruments",
+    "tw_suppliers": [
+      {"ticker": "2303", "name": "聯電 UMC",              "relationship": "analog chip foundry partner"},
+      {"ticker": "2327", "name": "國巨 Yageo",             "relationship": "passive components customer"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "shares industrial power market"}
+    ]
+  },
+
   "NFLX": {
     "company": "Netflix",
     "tw_suppliers": [
-      {"ticker": "2317", "name": "鴻海 Foxconn", "relationship": "streaming device supply chain"},
-      {"ticker": "3481", "name": "群創 Innolux", "relationship": "display panels for smart TVs"}
+      {"ticker": "2317", "name": "鴻海 Foxconn",  "relationship": "streaming device supply chain"},
+      {"ticker": "3481", "name": "群創 Innolux",  "relationship": "display panels for smart TVs"}
     ]
   },
+
   "UBER": {
     "company": "Uber",
     "tw_suppliers": [
-      {"ticker": "2454", "name": "聯發科 MediaTek", "relationship": "chips in smartphones running Uber app"},
-      {"ticker": "2330", "name": "台積電 TSMC", "relationship": "autonomous driving chip foundry"}
+      {"ticker": "2454", "name": "聯發科 MediaTek","relationship": "chips in smartphones running Uber app"},
+      {"ticker": "2330", "name": "台積電 TSMC",    "relationship": "autonomous vehicle chip foundry"}
+    ]
+  },
+
+  "HPE": {
+    "company": "Hewlett Packard Enterprise",
+    "tw_suppliers": [
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "server manufacturer"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "data center power systems"},
+      {"ticker": "2330", "name": "台積電 TSMC",            "relationship": "AI accelerator chip foundry"}
+    ]
+  },
+
+  "DELL": {
+    "company": "Dell Technologies",
+    "tw_suppliers": [
+      {"ticker": "2317", "name": "鴻海 Foxconn",          "relationship": "PC/server assembly"},
+      {"ticker": "2382", "name": "廣達 Quanta",            "relationship": "laptop/server ODM"},
+      {"ticker": "2308", "name": "台達電 Delta Electronics","relationship": "power supplies"}
     ]
   }
 }
