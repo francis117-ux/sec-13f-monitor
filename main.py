@@ -223,7 +223,7 @@ def run():
     supply_chain = load_supply_chain()
 
     # Step 1: Form 4 insider trades
-    print("Step 1/3: Scanning Form 4 insider trades...")
+    print("Step 1/4: Scanning Form 4 insider trades...")
     try:
         import form4_scanner
         form4 = form4_scanner.run(days_back=1)
@@ -232,7 +232,7 @@ def run():
         form4 = {"buys": [], "sells": []}
 
     # Step 2: TWSE 三大法人
-    print("Step 2/3: Scanning TWSE 三大法人...")
+    print("Step 2/4: Scanning TWSE 三大法人...")
     try:
         import twse_scanner
         twse = twse_scanner.run(days_back=0)
@@ -240,8 +240,16 @@ def run():
         print(f"  TWSE error: {e}")
         twse = {}
 
-    # Step 3: Build report
-    print("Step 3/3: Correlating signals and building report...")
+    # Step 3: 13F institutional fund filings
+    print("Step 3/4: Checking 13F institutional fund filings...")
+    try:
+        import check_13f
+        check_13f.run_and_save()
+    except Exception as e:
+        print(f"  13F error: {e}")
+
+    # Step 4: Build report
+    print("Step 4/4: Correlating signals and building report...")
     report, n_double, n_bull, n_bear = build_report(form4, twse, supply_chain)
 
     # Save report

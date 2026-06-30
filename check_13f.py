@@ -43,8 +43,9 @@ FUNDS = {
     "Coatue Management": "0001336099",
 }
 
-DATA_DIR = Path("/home/user/.edgar_monitor/data")
+DATA_DIR = Path("data/13f_fund_history")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
+CHANGES_PATH = Path("data/13f_latest_changes.json")
 
 
 # --------------------------------------------------------------------------- #
@@ -335,6 +336,68 @@ def run() -> tuple[str, int]:
         return header + "\n\nNo new 13F filings found this week.", 0
 
     return header + "\n" + "\n".join(report_parts), total_new_filings
+
+
+def run_and_save() -> tuple[str, int]:
+    """Run the scanner and write structured changes to data/13f_latest_changes.json."""
+    all_changes = {}
+
+    for fund_name, cik in FUNDS.items():
+        time.sleep(0.6)
+        print(f"  [{fund_name}] checking...", flush=True)
+
+        try:
+            subs = get_submissions(cik)
+            filings = get_13f_filings(subs)
+        except Exception as e:
+            print(f"    error: {e}")
+            continue
+
+        if not filings:
+            continue
+
+        latest = filings[0]
+        prev_data = load_prev(fund_name)
+        prev_date = prev_data.get("date", "")
+
+        if latest["date"] <= prev_date:
+            continue
+
+        print(f"    new filing: {latest['date']}", flush=True)
+        time.sleep(0.6)
+        xml_url = get_holding_xml_url(cik, latest["accession"])
+        if not xml_url:
+            continue
+
+        try:
+            xml_text = get(xml_url, headers=WEB_HEADERS).text
+        except Exception:
+            continue
+
+        curr_holdings = parse_holdings(xml_text)
+        if not curr_holdings:
+            continue
+
+        if prev_data:
+            diff = diff_holdings(prev_data, curr_holdings)
+            # Add ticker field (13F filings don't include tickers, only CUSIPs)
+            for lst in (diff["new_positions"], diff["increased"], diff["exited"]):
+                for pos in lst:
+                    pos.setdefault("ticker", "")
+            if any(diff[k] for k in ("new_positions", "increased", "exited")):
+                all_changes[fund_name] = diff
+
+        save_curr(fund_name, curr_holdings, latest["date"])
+
+    with open(CHANGES_PATH, "w") as f:
+        json.dump(all_changes, f, indent=2)
+
+    n = sum(
+        len(v.get("new_positions", [])) + len(v.get("increased", [])) + len(v.get("exited", []))
+        for v in all_changes.values()
+    )
+    print(f"13F scan complete: {len(all_changes)} funds with new filings, {n} position changes")
+    return all_changes, n
 
 
 if __name__ == "__main__":
